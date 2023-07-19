@@ -1,9 +1,7 @@
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 
 public class DataColumn extends TableElement{
-    private String name;
+    private final String name;
     public String getName(){
         return name;
     }
